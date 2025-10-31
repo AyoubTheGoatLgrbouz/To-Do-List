@@ -1,0 +1,157 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(186, 255, 255);
+    background-image: url(hellokittyBackground.jpg);
+    background-repeat: no-repeat;
+
+}
+
+header{
+    text-align: center;
+}
+
+.projects{
+    width: 550px;
+    background-color: rgb(219, 208, 202);
+    border: 2px solid rgb(246, 226, 226);
+    border-radius: 10px;
+    margin-bottom: 20px ;
+}
+
+h3{
+    color: rgb(37, 67, 137);
+    font-size: 25px;
+}
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    color: rgb(84, 84, 84);
+    margin-bottom: 0;
+}
+
+.square{
+    width: 20px ;
+    height: 20px;
+    border: 2px solid gray ;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.titleDiv{
+    height: 40px;
+    background-color: rgb(215, 232, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 20px;
+   
+}
+
+.mainDiv{
+    display: flex;    
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.todowa{
+    display: flex;
+    align-items: center; 
+}
+
+button{
+    font-weight:bold;
+    color: rgb(63, 63, 142);
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+img{
+    width: 20px;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+.picContainer{
+    display: flex;
+    gap: 5px;
+    margin-right: 6px;
+}
+
+.duedate{
+    width: 26px;
+}
+
+.deletePic{
+    width: 25px;
+}
+
+.secondmainDiv{
+    height: 50px ;
+    display: flex;
+    border-radius: 5px;
+     border-bottom: 1px solid whitesmoke;
+}
+
+.addText{
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+}
+
+.addPic{
+    width: 30px;
+    margin-left: 7px;
+}
+
+input{
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 150px;
+    height: 23px;
+    border: 0;
+    background-color: rgb(174, 135, 142);
+    font-size: medium;
+}
+
+.donePicture{
+    width: 30px;
+}
+
+dialog{
+    width: 230px;
+    height: 120px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+textarea{
+    width: 15Opx;
+    height: 70px;
+
+}
