@@ -127,8 +127,7 @@ function renderTodos(container){
     let h4Div = document.createElement('div')
     let h4 = document.createElement('h4')
     h4.textContent = 'Task to do'
-    h4Div.appendChild(h4);
-    todowa.appendChild(h4Div);
+    todowa.appendChild(h4);
 
     mainDiv.appendChild(picContainer);
     editTopic.addEventListener('click', function(){
@@ -153,8 +152,6 @@ function renderTodos(container){
 
     dueDatePic.addEventListener('click', function(){
         dialogDate.showModal();
-        
-
     })
 
 }

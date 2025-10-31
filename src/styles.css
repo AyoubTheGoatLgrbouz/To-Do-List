@@ -32,7 +32,6 @@ h4{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 10px;
     color: rgb(84, 84, 84);
-    margin-bottom: 0;
 }
 
 .square{
@@ -67,6 +66,7 @@ h4{
 .todowa{
     display: flex;
     align-items: center; 
+    justify-content: center;
 }
 
 button{
